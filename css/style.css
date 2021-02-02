@@ -20,6 +20,13 @@ clr {
 
 /*common css start*/
 
+/*common space start*/
+.gap250 {
+    padding-top: 250px;
+
+}
+
+/*common space end*/
 /*menu css start*/
 .menu-bg {
     height: 80px;
@@ -75,7 +82,7 @@ clr {
 }
 
 .menu-bg .menu-content .menu-list ul li:hover a {
-    color: #2B31B4;
+    color: #484DA0;
 }
 
 /*menu css end*/
@@ -85,13 +92,245 @@ clr {
 .banner-bg {
     height: 800px;
     width: 100%;
-    background: #000;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
-.banner-bg .banner-content{
-    height:800px;
-    width:1080px;
-    background: #000da3;
+.banner-bg .banner-overlay {
+    height: 800px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.banner-bg .banner-overlay .banner-content {
+    height: 800px;
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-bg .banner-overlay .banner-content h4 {
+    color: #fff;
+    font-size: 45px;
+    text-transform: capitalize;
+
+}
+
+.banner-bg .banner-overlay .banner-content h3 {
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.banner-bg .banner-overlay .banner-content p {
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0 250px;
+
+}
+
+.banner-bg .banner-overlay .banner-content a {
+    color: #fff;
+    background: #484DA0;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+
+}
+
+.banner-bg .banner-overlay .banner-content:hover a {
+    background: blue;
+
+
 }
 
 /*banner end*/
+
+/*video part start*/
+.video-bg {
+    height: 300px;
+    width: 100%;
+
+
+}
+
+.video-bg .video-content {
+    height: 150px;
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-bg .video-content .video-image {
+    height: 300px;
+    width: 400px;
+    background: url(../images/brand-vid.jpg);
+    position: absolute;
+    top: -50%;
+}
+
+.video-bg .video-content .video-image .video-overlay {
+    height: 300px;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;    
+
+}
+
+.video-bg .video-content .video-image:hover .video-overlay {
+    background: rgba(0, 0, 0, 0);
+
+}
+
+.video-bg .video-content .video-list {
+    height: 150px;
+    width: 650px;
+    position: absolute;
+    right: 0px;
+}
+
+.video-bg .video-content .video-list ul {
+    float: right;
+    line-height: 150px;
+
+}
+
+.video-bg .video-content .video-list ul li {
+    float: left;
+    padding: 0 60px;
+
+}
+
+.video-bg .video-content .video-list ul li a {
+    font-size: 30px;
+    color: #000;
+
+}
+
+/*video part end*/
+
+/*about us css start*/
+.about-bg {
+    height: 1000px;
+    width: 100%;
+
+}
+
+.about-bg .about-content {
+    height: 1000px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.about-bg .about-content .about-row1 {
+    height: 500px;
+    width: 1080px;
+}
+
+.about-bg .about-content .about-row1 .row1-text {
+    height: 500px;
+    width: 540px;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.about-bg .about-content .about-row1 .row1-text h5 {
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.about-bg .about-content .about-row1 .row1-text h4 {
+    font-size: 30px;
+}
+
+.about-bg .about-content .about-row1 .row1-text p {
+    padding-top: 20px;
+}
+
+.about-bg .about-content .about-row1 .row1-text a {
+
+    color: #fff;
+    background: #484DA0;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 20px;
+
+}
+
+
+.about-bg .about-content .about-row1 .row1-image {
+    height: 500px;
+    width: 540px;
+    float: left;
+
+}
+
+.about-bg .about-content .about-row2 {
+    height: 500px;
+    width: 1080px;
+}
+
+.about-bg .about-content .about-row2 .row2-image {
+    height: 500px;
+    width: 540px;
+    float: left;
+
+
+}
+
+.about-bg .about-content .about-row2 .row2-text {
+    height: 500px;
+    width: 540px;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+
+.about-bg .about-content .about-row2 .row2-text h5 {
+    padding-top: 200px;
+    font-size: 20px;
+}
+
+.about-bg .about-content .about-row2 .row2-text h4 {
+    font-size: 30px;
+}
+
+.about-bg .about-content .about-row2 .row2-text p {
+    padding-top: 20px;
+}
+
+.about-bg .about-content .about-row2 .row2-text a {
+
+    color: #fff;
+    background: #484DA0;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 20px;
+
+}
+
+/*about us css end*/
