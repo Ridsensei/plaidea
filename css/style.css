@@ -1,0 +1,97 @@
+/*common css start*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+clr {
+    clear: both;
+}
+
+/*common css start*/
+
+/*menu css start*/
+.menu-bg {
+    height: 80px;
+    width: 100%;
+}
+
+.menu-bg .menu-content {
+    height: 100%;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.menu-bg .menu-content .menu-logo {
+    height: 80px;
+    width: 200px;
+    float: left;
+    ;
+}
+
+.menu-bg .menu-content .menu-logo a img {
+    padding-top: 10px;
+}
+
+.menu-bg .menu-content .menu-list {
+    height: 80px;
+    width: 880px;
+    float: left;
+}
+
+.menu-bg .menu-content .menu-list ul {
+    float: right;
+    padding: 0 130px;
+
+}
+
+.menu-bg .menu-content .menu-list ul li {
+    float: left;
+    line-height: 80px;
+
+}
+
+.menu-bg .menu-content .menu-list ul li a {
+    padding: 0 30px;
+    font-size: 20px;
+    color: #000;
+    transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+
+
+}
+
+.menu-bg .menu-content .menu-list ul li:hover a {
+    color: #2B31B4;
+}
+
+/*menu css end*/
+
+/*banner start*/
+
+.banner-bg {
+    height: 800px;
+    width: 100%;
+    background: #000;
+}
+
+.banner-bg .banner-content{
+    height:800px;
+    width:1080px;
+    background: #000da3;
+}
+
+/*banner end*/
