@@ -188,7 +188,7 @@ clr {
     -moz-transition: all linear 0.5s;
     -o-transition: all linear 0.5s;
     -ms-transition: all linear 0.5s;
-    -webkit-transition: all linear 0.5s;    
+    -webkit-transition: all linear 0.5s;
 
 }
 
@@ -283,6 +283,7 @@ clr {
     width: 540px;
     float: left;
 
+
 }
 
 .about-bg .about-content .about-row2 {
@@ -294,6 +295,7 @@ clr {
     height: 500px;
     width: 540px;
     float: left;
+
 
 
 }
@@ -334,3 +336,173 @@ clr {
 }
 
 /*about us css end*/
+
+/*service css start*/
+
+.service-bg {
+    height: 900px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.service-bg .service-contain {
+    height: 900px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.service-bg .service-contain .service-row1 {
+    height: 400px;
+    width: 1080px;
+
+}
+
+.service-bg .service-contain .service-row1 .service-row1-text {
+    height: 400px;
+    width: 340px;
+    float: left;
+    margin-right: 40px;
+
+}
+
+.service-bg .service-contain .service-row1 .service-row1-text h5 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-text h4 {
+    color: #000;
+    font-size: 40px;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-text p {
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-text p span {
+    display: block;
+    padding-top: 30px;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-text a {
+    color: #484DA0;
+    font-size: 20px;
+    display: block;
+    padding-top: 30px;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-item1 {
+    height: 400px;
+    width: 340px;
+    background: #FFF7D8;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-item1 img {
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    margin-top: 50px;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-item1 h4 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-item1 p {
+    padding-top: 20px;
+}
+
+/*item-1 end*/
+
+.service-bg .service-contain .service-row1 .service-row1-item2 {
+    height: 400px;
+    width: 340px;
+    background: #D8F4FF;
+    float: left;
+    text-align: center;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-item2 img {
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    margin-top: 50px;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-item2 h4 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.service-bg .service-contain .service-row1 .service-row1-item2 p {
+    padding-top: 20px;
+}
+
+/*1st row end*/
+
+.service-bg .service-contain .service-row2 {
+    height: 400px;
+    width: 1080px;
+    margin-top: 50px;
+
+
+}
+
+.service-bg .service-contain .service-row2 .service-row2-item3 {
+    height: 400px;
+    width: 340px;
+    background: #D8E9FF;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    margin-left: 380px;
+
+}
+
+.service-bg .service-contain .service-row2 .service-row2-item3 img {
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    margin-top: 50px;
+}
+
+.service-bg .service-contain .service-row2 .service-row2-item3 h4 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.service-bg .service-contain .service-row2 .service-row2-item3 p {
+    padding-top: 20px;
+}
+
+.service-bg .service-contain .service-row2 .service-row2-item4 {
+    height: 400px;
+    width: 340px;
+    background: #D8FFFF;
+    float: left;
+    
+    text-align: center;
+}
+
+.service-bg .service-contain .service-row2 .service-row2-item4 img {
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    margin-top: 50px;
+}
+
+.service-bg .service-contain .service-row2 .service-row2-item4 h4 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.service-bg .service-contain .service-row2 .service-row2-item4 p {
+    padding-top: 20px;
+
+
+    /*service css end*/
