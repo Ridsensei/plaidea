@@ -485,7 +485,7 @@ clr {
     width: 340px;
     background: #D8FFFF;
     float: left;
-    
+
     text-align: center;
 }
 
@@ -504,5 +504,118 @@ clr {
 .service-bg .service-contain .service-row2 .service-row2-item4 p {
     padding-top: 20px;
 
+}
 
-    /*service css end*/
+/*service css end*/
+
+.portfolio-bg {
+    height: 680px;
+    width: 100%;
+    background: red;
+}
+
+.portfolio-bg .portfolio-content {
+    height: 680px;
+    width: 1080px;
+    background: blue;
+    margin: 0 auto;
+}
+
+.portfolio-bg .portfolio-content .portfolio-heading {
+    height: 80px;
+    width: 100%;
+    background: green;
+}
+
+.portfolio-bg .portfolio-content .portfolio-heading p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.portfolio-bg .portfolio-content .portfolio-heading H4 {
+    font-size: 40px;
+}
+
+.portfolio-bg .portfolio-content .portfolio-menu {
+    height: 80px;
+    width: 100%;
+    background: #beffbe;
+}
+
+.portfolio-bg .portfolio-content .portfolio-menu ul li {
+    float: left;
+    padding-right: 30px;
+    line-height: 80px;
+    font-size: 30px;
+
+}
+
+.portfolio-bg .portfolio-content .portfolio-menu ul li a {
+    color: #000;
+    transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+}
+
+.portfolio-bg .portfolio-content .portfolio-menu ul li:hover a {
+    color: #484DA0;
+}
+
+
+.portfolio-bg .portfolio-content .portfolio-item{
+    height: 400px;
+    width: 1080px;
+    background: orange;
+    margin-top: 30px;
+}
+
+.portfolio-bg .portfolio-content .portfolio-item .portfolio-box1{
+    height: 350px;
+    width: 340px;
+    background: url(../images/port1.jpg);
+    float: left;
+    margin-right: 30px;
+}
+
+.portfolio-bg .portfolio-content .portfolio-item .portfolio-box2{
+    height: 350px;
+    width: 340px;
+    background: url(../images/port2.jpg);
+    float: left;
+    margin-right: 30px;
+}
+
+.portfolio-bg .portfolio-content .portfolio-item .portfolio-box3{
+    height: 350px;
+    width: 340px;
+    background: url(../images/port3.jpg);
+    float: left;
+}
+
+.portfolio-bg .portfolio-content .portfolio-botton{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    background: #484DA0;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 30%;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
