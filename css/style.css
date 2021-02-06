@@ -26,6 +26,9 @@ clr {
 
 }
 
+.gap20{
+    margin-right: 20px;
+}
 /*common space end*/
 /*menu css start*/
 .menu-bg {
@@ -508,23 +511,22 @@ clr {
 
 /*service css end*/
 
+/*portfolio css start*/
+
 .portfolio-bg {
     height: 680px;
     width: 100%;
-    background: red;
 }
 
 .portfolio-bg .portfolio-content {
     height: 680px;
     width: 1080px;
-    background: blue;
     margin: 0 auto;
 }
 
 .portfolio-bg .portfolio-content .portfolio-heading {
     height: 80px;
     width: 100%;
-    background: green;
 }
 
 .portfolio-bg .portfolio-content .portfolio-heading p {
@@ -539,7 +541,6 @@ clr {
 .portfolio-bg .portfolio-content .portfolio-menu {
     height: 80px;
     width: 100%;
-    background: #beffbe;
 }
 
 .portfolio-bg .portfolio-content .portfolio-menu ul li {
@@ -547,6 +548,7 @@ clr {
     padding-right: 30px;
     line-height: 80px;
     font-size: 30px;
+    text-transform: capitalize;
 
 }
 
@@ -567,7 +569,6 @@ clr {
 .portfolio-bg .portfolio-content .portfolio-item{
     height: 400px;
     width: 1080px;
-    background: orange;
     margin-top: 30px;
 }
 
@@ -594,25 +595,65 @@ clr {
     float: left;
 }
 
-.portfolio-bg .portfolio-content .portfolio-botton{
-    text-transform: capitalize;
-    text-align: center;
-    padding: 20px;
-    background: #484DA0;
-    display: inline-block;
-    margin: 0 auto;
-    border-radius: 30%;
-    
-    
-    
+.portfolio-bg .portfolio-content .portfolio-bottom a{
+    color:#fff;
+    background:#484DA0;
+    text-transform:capitalize;
+    padding:20px;
+    display:inline-block;
+    border-radius:50px;
+    font-size: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%); 
+    transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
     
 }
 
+/*bujhe nai holo na */
+.portfolio-bg .portfolio-content .portfolio-bottom :hover a{       
+    color: #484DA0;
+}
 
+/*portfolio css end*/
 
+/*count css start*/
+.count-bg{
+    height: 220px;
+    width: 100%px;
+    background: #000;
+    
+}
 
+.count-bg .count-contain{
+    height: 100%;
+    width: 1080px;
+    margin: 0 auto;
+}
 
+.count-bg .count-contain .count-item{
+    height: 100%;
+    width: 255px;
+    float: left;
+    text-align: center;
+  
+}
 
+.count-bg .count-contain .count-item h4{
+   padding-top: 80px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.count-bg .count-contain .count-item p{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #fff;
+}
+/*count css end*/
 
 
 
